@@ -37,6 +37,8 @@
         if (flag && flag === 'true') this.darkMode = true
         else if (flag && flag === 'false') this.darkMode = false
         else this.darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+        
+        this.darkMode = true
         document.documentElement.className = this.darkMode ? 'dark' : ''
         document.querySelector('meta[name=theme-color]').setAttribute('content', this.darkMode ? '#2D2E32' : '#FFFFFF')
       }
