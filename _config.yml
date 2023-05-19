@@ -3,9 +3,9 @@ encoding: utf-8
 # SEO相关信息
 title: 謨然Blog
 description: 謨-的个人博客
-keywords: 技术交流,Blog,易语言ava,Html,JavaScript,火山
+keywords: 技术交流,Blog,易语言ava,Html,JavaScript,软件开发,app,小程序
 author: 謨然
-footerText: 'Copyright © 2023 '
+footerText: 'Copyright © 2023 Chemcat Incorporated. All rights reserved.'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
