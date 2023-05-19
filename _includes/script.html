@@ -3,21 +3,20 @@
 <script type="text/javascript" src="{{site.baseurl}}/static/js/search.js?t={{ buildAt }}"></script>
 
 {%- if site.extClickEffect %}
-<!-- 点击页面文字冒出特效 -->
-<script>
-;(function(){
-  var textArr = ['富强', '民主', '文明', '和谐', '自由', '平等', '公正', '法治', '爱国', '敬业', '诚信', '友善']
-  window.blog.initClickEffect(textArr)
-})()
-</script>
-<!-- <script type="text/javascript"
-color="220,220,220" opacity='0.7' zIndex="-2" count="150" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
-</script> -->
-
-
+  <!-- 点击页面文字冒出特效 -->
+  <script>
+  ;(function(){
+    var textArr = ['富强', '民主', '文明', '和谐', '自由', '平等', '公正', '法治', '爱国', '敬业', '诚信', '友善']
+    window.blog.initClickEffect(textArr)
+  })()
+  </script>
+  <script type="text/javascript"
+  color="220,220,220" opacity='0.7' zIndex="-2" count="150" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+  </script>
 {% endif %}
 
-<!-- {%- if page.layout=="mypost" -%}
+
+{%- if page.layout=="mypost" -%}
   {%- if site.extMath -%}
     {% include ext-mathjax.html %}
   {% elsif page.extMath %}
@@ -27,4 +26,4 @@ color="220,220,220" opacity='0.7' zIndex="-2" count="150" src="//cdn.bootcss.com
 
 {%- if site.extCount %}
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-{% endif %} -->
+{% endif %}
