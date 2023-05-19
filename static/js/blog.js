@@ -447,7 +447,8 @@ blog.addLoadEvent(function () {
       const systemDark = ev.target.matches
       if (systemDark !== blog.darkMode) {
         localStorage.darkMode = '' // 清除用户设置
-        initDarkMode(systemDark ? 'true' : 'false')
+        // initDarkMode(systemDark ? 'true' : 'false')
+        initDarkMode(systemDark ? 'false' : 'true')
       }
     })
   }
